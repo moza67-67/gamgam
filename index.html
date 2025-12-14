@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>精選遊戲入口</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        .hover-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-indigo-50 to-blue-100 min-h-screen flex items-center justify-center p-4">
 
+    <div class="max-w-md w-full bg-white rounded-3xl shadow-2xl overflow-hidden">
+        <!-- Header -->
+        <div class="bg-indigo-600 p-8 text-center">
+            <div class="mx-auto bg-white/20 w-16 h-16 rounded-full flex items-center justify-center mb-4 backdrop-blur-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </div>
+            <h1 class="text-2xl font-bold text-white mb-2">遊戲連結列表</h1>
+            <p class="text-indigo-200 text-sm">點擊下方卡片即可開始遊玩</p>
+        </div>
+
+        <!-- Links Container -->
+        <div class="p-6 space-y-4">
+            
+            <!-- Link 1: Dobble -->
+            <a href="https://mattsue.my.canva.site/dobble" target="_blank" class="block group">
+                <div class="hover-card transition-all duration-300 bg-white border-2 border-purple-100 hover:border-purple-500 rounded-xl p-4 flex items-center gap-4 shadow-sm hover:shadow-md">
+                    <div class="bg-purple-100 p-3 rounded-lg group-hover:bg-purple-500 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                        </svg>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-bold text-gray-800 group-hover:text-purple-600 transition-colors">多寶遊戲</h3>
+                        <p class="text-xs text-gray-500">考驗眼力的圖案配對</p>
+                    </div>
+                    <div class="text-gray-300 group-hover:text-purple-500 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Link 2: Light Game -->
+            <a href="https://mattsue1003.github.io/lightgame/" target="_blank" class="block group">
+                <div class="hover-card transition-all duration-300 bg-white border-2 border-yellow-100 hover:border-yellow-500 rounded-xl p-4 flex items-center gap-4 shadow-sm hover:shadow-md">
+                    <div class="bg-yellow-100 p-3 rounded-lg group-hover:bg-yellow-500 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-bold text-gray-800 group-hover:text-yellow-600 transition-colors">反應力遊戲</h3>
+                        <p class="text-xs text-gray-500">挑戰你的極限速度</p>
+                    </div>
+                    <div class="text-gray-300 group-hover:text-yellow-500 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Link 3: Arrow -->
+            <a href="https://mattsue1003.github.io/arrow/" target="_blank" class="block group">
+                <div class="hover-card transition-all duration-300 bg-white border-2 border-blue-100 hover:border-blue-500 rounded-xl p-4 flex items-center gap-4 shadow-sm hover:shadow-md">
+                    <div class="bg-blue-100 p-3 rounded-lg group-hover:bg-blue-500 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
+                        </svg>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-bold text-gray-800 group-hover:text-blue-600 transition-colors">箭頭遊戲</h3>
+                        <p class="text-xs text-gray-500">方向感與邏輯的考驗</p>
+                    </div>
+                    <div class="text-gray-300 group-hover:text-blue-500 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="bg-gray-50 p-4 text-center border-t border-gray-100">
+            <p class="text-xs text-gray-400">© 2024 MattSue Game Collection</p>
+        </div>
+    </div>
+
+</body>
+</html>
